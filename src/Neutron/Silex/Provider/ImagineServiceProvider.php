@@ -11,8 +11,8 @@
 
 namespace Neutron\Silex\Provider;
 
-use Silex\Application;
-use Silex\ServiceProviderInterface;
+use Pimple\Container;
+use Pimple\ServiceProviderInterface;
 
 class ImagineServiceProvider implements ServiceProviderInterface
 {
